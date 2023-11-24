@@ -41,7 +41,7 @@
         </h4>
     </div>
 
-    <div class="prediction-box" style="background-color: #EE9FBA; width: 90%; border-radius: 20px; margin-top: 50px;">
+    <div class="prediction-box" style="background-color: #EE9FBA; width: 90%; border-radius: 20px; margin-top: 50px; margin-bottom: 50px;">
         <form action="/predict" method="post" style="display: flex; flex-direction: column; align-items: center; padding: 3%;">
 
             <div class="form-floating" style="align-self: flex-start; width: 20%;">
@@ -245,9 +245,10 @@
 
             <button type="submit" class="btn btn-outline-dark" style="margin-top: 5%; align-self: flex-start;">Submit</button>
 
+            <p style="color: black; margin-top: 2%; font-weight: bold; align-self: flex-start;">{{heart_attack_prediction}}</p>
         </form>
 
-        <p style="color: black;">{{heart_attack_prediction}}</p>
+        
     </div>
 </body>
 
